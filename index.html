@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Chat</title>
+  <style>
+    #chat {
+      border: 1px solid #ccc;
+      padding: 10px;
+      height: 200px;
+      overflow-y: scroll;
+      margin-bottom: 10px;
+    }
+    #input, #password {
+      width: calc(100% - 110px);
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    #sendBtn {
+      padding: 10px;
+    }
+    #password {
+      display: none; /* Hidden initially */
+    }
+  </style>
+</head>
+<body>
+<div id="chat"></div>
+<input type="text" id="input" placeholder="Type a message...">
+<input type="password" id="password" placeholder="Enter password">
+<button id="sendBtn">Send</button>
+
+<script src="script.js"></script>
+</body>
+</html>
